@@ -75,7 +75,7 @@ print(f"Euclidean:  {result.euclidean_model} (d={result.euclidean_distance:.3f})
 print(f"Agree: {result.agree}")
 ```
 
-When hyperbolic and Euclidean routing disagree, hyperbolic is usually right for specialized tasks — it captures qualitative gaps that Euclidean flattens.
+When hyperbolic and Euclidean routing disagree, the disagreement itself is informative — it means the models are close in Euclidean terms but qualitatively different, which hyperbolic distance captures through boundary effects.
 
 ### Fleet Consensus
 
